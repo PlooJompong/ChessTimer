@@ -85,7 +85,9 @@
                     <connections>
                         <outlet property="btnReset" destination="Cht-PC-VC3" id="c32-oR-WnF"/>
                         <outlet property="btnStart" destination="d65-8g-WFt" id="6uu-jJ-X0i"/>
+                        <outlet property="playerOne" destination="NZn-U3-QU4" id="sVf-1y-sbe"/>
                         <outlet property="playerOneTimer" destination="Rka-Tk-gh2" id="xjp-d5-uMy"/>
+                        <outlet property="playerTwo" destination="UFx-o2-jzM" id="qwW-wR-pDw"/>
                         <outlet property="playerTwoTimer" destination="aee-0b-hdr" id="3LI-NK-IDp"/>
                     </connections>
                 </viewController>
