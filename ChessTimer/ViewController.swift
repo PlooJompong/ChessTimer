@@ -18,8 +18,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var btnStart: UIButton!
     @IBOutlet weak var btnReset: UIButton!
     
-    var time1: TimeInterval = 10.0
-    var time2: TimeInterval = 10.0
+    var time1: TimeInterval = 300.0
+    var time2: TimeInterval = 300.0
     
     var isTimerRunning: Bool = false
     var state: Bool = true
@@ -92,8 +92,8 @@ class ViewController: UIViewController {
         timeFormatter.allowedUnits = [.minute, .second]
         isTimerRunning = false
         state = true
-        time1 = 3.0
-        time2 = 3.0
+        time1 = 300.0
+        time2 = 300.0
         playerOneTimer.text = timeFormatter.string(from: time1)
         playerTwoTimer.text = timeFormatter.string(from: time2)
         playerOne.textColor = UIColor.black
