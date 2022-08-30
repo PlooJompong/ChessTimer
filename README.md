@@ -1,2 +1,2 @@
 # ChessTimer
-Storyboard & Layout
+A simple Chess Timer App
